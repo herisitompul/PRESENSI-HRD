@@ -1,0 +1,26 @@
+﻿
+  /* Annual Leave Warning */
+  .warning-message {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+    background: linear-gradient(
+      135deg,
+      rgba(239, 68, 68, 0.15) 0%,
+      rgba(220, 38, 38, 0.1) 100%
+    );
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    border-radius: 12px;
+    color: #dc2626;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px -1px rgba(239, 68, 68, 0.1);
+  }
+
+  .warning-message i {
+    color: #dc2626;
+    font-size: 16px;
+  }
